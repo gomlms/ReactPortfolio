@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'Roboto'; /*a name to be used later*/
+    src: url('./Roboto-Condensed.ttf'); /*URL to font*/
+}
+
+.HomeGroup {
+  position: absolute;
+  margin-left: 50px;
+  bottom: 15%;
+}
+.HomeSentence{
+  font-size: 70px;
+  color: white;
+}
+
+.HomeContact{
+  width: 200px;
+  height: 50px;
+}
+
+.AboutHolder{
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  height: 90vh;
+}
+
+.SwipeViews{
+  height: 100vh;
+  overflow: hidden;
+}
+
+.AboutGroup{
+  width: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.AboutPic{
+  display: inline-block;
+  position: absolute;
+  max-height: 100%;
+  width: auto;
+  overflow: hidden;
+  right: 10px;
+  top: 20px;
+}
+
+.AboutTitle{
+  font-size: 50px;
+  margin-left: 20px;
+  color: white;
+}
+
+.OverView{
+  height: 100%;
+  overflow: hidden;
+}
+
+.AboutParagraph{
+  margin-left: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.hexagon{
+  margin-right: 10px;
+  transition: all .2s ease-in-out;
+  transform: scale(.9, .9);
+}
+
+.hexagon:hover{
+  transform: scale(1);
+}
+
+.JavaText{
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+
+.SkillsContainer{
+  position: absolute;
+  display: inline-block;
+  right: 5px;
+  max-height: 50%;
+  width: auto;
+  -webkit-user-drag: none;
+}
+
+.SkillsDesc{
+  width: 30%;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.SkillsTitle{
+  margin-left: 30px;
+}
+
+.SkillsGroup{
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  height: 95vh;
+  position: relative;
+}
+
+.Divider{
+  spacing: 50px;
+}
+
+.BoldText{
+  color: rgb(125,17,9);
+}
+
+.ListItem{
+  margin-top: 25px;
+}
+
+.AppBar {
+
+}
+
+.AppTabs {
+  padding-left: 40px;
+  width: 90%;
+}
+
+.MyWorkGroup {
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  height: 90%;
+}
+
+.FirstHalfWork{
+  display: inline-block;
+  width: 50%;
+}
+
+.SecondHalfWork{
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  width: 700px;
+}
+
+.HomeFirstHalf{
+  width: 50%;
+}
+
+.HomeSecondHalf{
+  left: 50%;
+  position: absolute;
+  top: 5%;
+}
+
+.HomeContactRef{
+  text-decoration: none;
+}
+
+.MobileImageGroup{
+  height: auto;
+}
+
+.CurrentWorkTitles{
+  position: relative;
+  text-align: center;
+}
+
+.CurrentWorkGroup{
+  position: relative;
+  height: 100%;
+}
+
+.WorkWebHolder{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 90px;
+  text-align: center;
+}
+
+.WorkBAMPic{
+  margin-top: 90px;
+  -webkit-user-drag: none,
+}
+
+.BAMTextHolder{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.WebTextHolder{
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.TestimonyButton{
+  margin-top: 10px;
+}
+
+.TestimonialHolder{
+  position: absolute;
+  bottom: 15%;
+  left: 20px;
+  width: 45%;
+  height: 10%;
+}
+
+.QuotePaper{
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.WorkBAMHolder{
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  border-right: 2px solid;
+  height: 100%;
+}
+
+.BAMWorkTitle{
+  position: absolute;
+  width: 50%;
+}
+
+.WebWorkTitle{
+  position: absolute;
+  width: 50%;
+  left: 50%;
+}
+
+.LinkedInButton{
+  background-color: rgb(125,17,9);
+}
+
+.WorkWebPic{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.PastImport{
+  position: absolute;
+  top: 500px;
+  left: 78px;
+  font-size: 30px;
+  color: rgb(125,17,9);
+}
+
+.PastPlan{
+  position: absolute;
+  top: 500px;
+  left: 330px;
+  font-size: 30px;
+  color: rgb(125,17,9);
+}
+
+.PastSend{
+  position: absolute;
+  top: 500px;
+  left: 530px;
+  font-size: 30px;
+  color: rgb(125,17,9);
+}
+
+.PastImage1{
+  margin-left: 20px;
+  -webkit-user-drag: none;
+  position: absolute;
+}
+.PastImage2{
+  margin-left: 245px;
+  -webkit-user-drag: none;
+  position: absolute;
+}
+.PastImage3{
+  margin-left: 493px;
+  -webkit-user-drag: none;
+  position: absolute;
+}
+
+.PastWorkTitle{
+  margin-left: 20px;
+}
+
+.PastWorkSubtitle{
+  margin-left: 20px;
+}
+
+.Description{
+  font-size: 28px;
+}
+
+.ResumeButton{
+}
+
+html, body {
+    max-width: 100%;
+    overflow: hidden;
+    height:100%;
+    font-family: "Roboto";
+    color: white;
+}
